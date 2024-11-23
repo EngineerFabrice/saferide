@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeRide.com</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #FF6F61;
+      padding: 10px 20px;
+    }
+
+    header a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    .home-btn {
+      background-color: #008000;
+    }
+
+    header a:hover {
+      opacity: 0.8;
+    }
+
+    /* Hero Section with Background */
+    .hero {
+      position: relative;
+      height: 400px;
+      background-image: url('road-image-placeholder.jpg'); /* Replace with your background image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero .btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #008000;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hero .btn:hover {
+      background-color: #005500;
+    }
+
+    /* Welcome Section */
+    .welcome {
+      background-color: #f0f0f0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .welcome-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .welcome-text {
+      flex: 2;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .welcome-text span {
+      color: blue;
+      font-weight: bold;
+    }
+
+    .welcome-button {
+      flex: 1;
+      text-align: right; /* Align the button to the right */
+    }
+
+    .register-btn {
+      display: inline-block;
+      background-color: #008000;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .register-btn:hover {
+      background-color: #005500;
+    }
+
+    /* Footer */
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    .contact-icons img {
+      width: 40px;
+      height: 40px;
+      margin: 0 10px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="#" class="home-btn">Home</a>
+    <div>
+      <a href="signup.html">Sign Up</a>
+      <a href="login.html">Sign In</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <button class="btn">Book Now</button>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <div class="welcome-container">
+      <div class="welcome-text">
+        <p>
+          <span>Welcome to SafeRide.com</span>, your trusted solution,<br> for safe, reliable rides.
+          Connect with skilled drivers nearby<br>
+          and travel safely to your destination with just a few clicks!
+        </p>
+      </div>
+      <div class="welcome-button">
+        <a href="#" class="register-btn">Register Cooperative</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="contact-icons">
+      <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter-icon.jpeg" alt="Twitter"></a>
+    </div>
+    <p>Gerayo amahoro! | <a href="#">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>
